@@ -1,4 +1,4 @@
-// demoed fungsi scanf untuk mengambil input
+// demonstrated fungsi scanf untuk mengambil input
 
 #include <stdio.h>
 

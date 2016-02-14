@@ -4,12 +4,12 @@
  * bagustris, bagustris@yahoo.com
  */
 
-#include <cs50.h>
 #include <stdio.h>
+#include "cs50.h"
 
 int main(void)
 {
-  printf("Nama:");
-  string name= GetString();
-  printf("hello,%s\n", name);
+  printf("Nama: ");
+  string nama= GetString();
+  printf("Hello, %s\n", nama);
 }
