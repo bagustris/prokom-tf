@@ -1,9 +1,8 @@
 #include <iostream>		// in windows <iostream.h>
- 
-int main() {
+using namespace std;
 
-      std::cout << "Hello World!";
-      std::cout << std::endl;
-         
+int main() {
+      cout << "Hello World!";
+      cout << std::endl;   
       return 0;
 }
