@@ -1,16 +1,9 @@
-/**
- * hello-1.c
- * David J. Malan
- * malan@harvard.edu
- * Says hello to just David.
- * Demonstrates use of CS50's library.
- */
-
-#include <cs50.h>
+// program untuk menampilkan hello world dg variable
 #include <stdio.h>
-
+#include "cs50.h"
+	
 int main(void)
 {
-    string name = "David";
-    printf("hello, %s\n", name);
+   	string nama = "tes";
+    printf("hello, %s\n", nama);
 }

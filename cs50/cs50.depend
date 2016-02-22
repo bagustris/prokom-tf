@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1456113271 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello-2.c
+	<stdio.h>
+	"cs50.h"
+
+1379595588 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello-1.c
+	<cs50.h>
+	<stdio.h>
+
+1454909175 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello.c
+	<stdio.h>
+
+1454909175 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello.cpp
+	<iostream>
+
+1454909175 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello0.c
+	<stdio.h>
+
+1455158325 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello1.c
+	<stdio.h>
+
+1455158341 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello2.c
+	<stdio.h>
+
+1456119695 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello3.c
+	<stdio.h>
+	"cs50.h"
+
+1375688148 /media/atmaja/teach/prokom/prokom-tf/cs50/cs50.h
+	<float.h>
+	<limits.h>
+	<stdbool.h>
+	<stdlib.h>
+
