@@ -22,11 +22,20 @@
 1455158341 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello2.c
 	<stdio.h>
 
-1456119695 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello3.c
+1456124336 source:/media/atmaja/teach/prokom/prokom-tf/cs50/hello3.c
 	<stdio.h>
-	"cs50.h"
+	<cs50.h>
 
 1375688148 /media/atmaja/teach/prokom/prokom-tf/cs50/cs50.h
+	<float.h>
+	<limits.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1456288345 source:/media/atmaja/teach/prokom/prokom-tf/cs50/forBintang4.c
+	<stdio.h>
+
+1375688148 /media/atmaja/teach/prokom/prokom-tf/cs50//cs50.h
 	<float.h>
 	<limits.h>
 	<stdbool.h>
