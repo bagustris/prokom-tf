@@ -1,6 +1,7 @@
-/* hello1.c
+/**
+ * hello1.c
  * demonstrate the input "char" name in hello word
- * 09/23/2013 
+ * 09/23/2013
  * bagustris, bagustris@yahoo.com
  */
 
