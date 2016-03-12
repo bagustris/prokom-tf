@@ -4,7 +4,7 @@
  * David J. Malan
  * malan@harvard.edu
  *
- * Says hello to whomever.
+ * Says hello to d.
  *
  * Demonstrates use of CS50's library and standard input.
  */

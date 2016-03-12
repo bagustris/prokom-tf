@@ -11,6 +11,7 @@ int main()
 	}
 
 	while (n <= 100);
+	
 	{
 		printf("hello world\n");
 	}

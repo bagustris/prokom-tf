@@ -2,25 +2,21 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="cs50" />
+		<Option title="windows" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/cs50" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/windows" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="/media/atmaja/teach/prokom/prokom-tf/cs50/" />
 				</Compiler>
-				<Linker>
-					<Add library="../library50-c-5/libcs50.a" />
-				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/cs50" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/windows" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -35,7 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="hello-2.c">
+		<Unit filename="forBintang4.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

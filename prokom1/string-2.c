@@ -17,7 +17,8 @@ int main(void)
 {
     // get line of text
     string s = GetString();
-
+    //int i, n;
+    
     // print string, one character per line
     if (s != NULL)
     {
