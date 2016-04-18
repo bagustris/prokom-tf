@@ -4,6 +4,8 @@
 // prototype
 int positifInt();
 
+int n;
+
 int main(void)
 {
     int n = positifInt();
@@ -11,7 +13,7 @@ int main(void)
 }
 
 // meminta input positive dari user
-int positifInt(void) 
+int positifInt(void)
 {
     int n;
     do
@@ -22,3 +24,4 @@ int positifInt(void)
     while (n < 1);
     return n;
 }
+

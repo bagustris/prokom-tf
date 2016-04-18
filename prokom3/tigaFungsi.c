@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void fungsiKedua();	//prototyping
-void fungsiKetiga(); 
+void fungsiKetiga();
 
 int main()
 {

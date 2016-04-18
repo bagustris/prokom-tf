@@ -1,6 +1,6 @@
 // fungsi3.c : demo fungsi tambahan dulu baru main
 #include <stdio.h>
- 
+
 void Print_Squares(void)
 {
   int i;
@@ -10,7 +10,7 @@ void Print_Squares(void)
   }
   printf("\n");
 }
- 
+
 int main(void)
 {
   Print_Squares();

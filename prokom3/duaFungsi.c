@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-void fungsiKedua();	//prototyping
+//void fungsiKedua();	//prototyping
+
+void fungsiKedua()
+{
+  printf("OK, Saya hadir.\n");
+}
 
 int main()
 {
@@ -10,7 +15,9 @@ int main()
     return 0;
 }
 
+/***
 void fungsiKedua()
 {
 	printf("OK, saya hadir.\n");
 }
+***/
