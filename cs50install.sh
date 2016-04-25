@@ -1,4 +1,4 @@
-tall gcc
+#install gcc
 wget http://mirror.cs50.net/library50/c/library50-c-5.zip
 unzip library50-c-5.zip
 rm -f library50-c-5.zip
