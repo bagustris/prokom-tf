@@ -8,3 +8,14 @@ biner = 11111111, 2^8-1
 
 Clear?
 
+Pointer and Linked List based on Linus Torvals:
+So I guarantee you, everybody who raised their hand, they have done what's called a singly-linked list. And it's taught -- This, the first not very good taste approach, is basically how it's taught to be done when you start out coding. And you don't have to understand the code.
+
+
+The most interesting part to me is the last if statement. Because what happens in a singly-linked list -- this is trying to remove an existing entry from a list -- and there's a difference between if it's the first entry or whether it's an entry in the middle. Because if it's the first entry, you have to change the pointer to the first entry. If it's in the middle, you have to change the pointer of a previous entry. So they're two completely different cases.
+
+
+CA: And that's better.
+
+
+LT: And this is better. It does not have the if statement. And it doesn't really matter -- I don't want you understand why it doesn't have the if statement, but I want you to understand that sometimes you can see a problem in a different way and rewrite it so that a special case goes away and becomes the normal case. And that's good code. But this is simple code. This is CS 101. This is not important -- although, details are important. 
