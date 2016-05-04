@@ -14,12 +14,14 @@ for (i=1; i<=n; i++)
 {   
     for (j=1; j<=m; j++)
     {
-    printf("*");
-    jumlah= jumlah + 1;
+        printf("*");
+        jumlah= jumlah + 1;
     }
     printf("\n");
     m=m-1;
 }
+
 printf("Jumlah bintang= %d\n", jumlah);
 return 0;
+
 }
