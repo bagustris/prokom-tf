@@ -20,7 +20,7 @@ for (i = 1; i<=n; i++)
         jumlah =jumlah+1;
     }
     
-    printf("\n");
+    printf("\n");   // ganti baris
 }    
 
 return 0;
