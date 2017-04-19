@@ -1,5 +1,5 @@
 /*
- * breakDemo.c: demonstrated break from for loops
+ * breakDemo.c: demonstrated break from "for loops
  * loop i times
  * 04/10/2016 05:22:45 PM
  * bagustris, bagustris@yahoo.com

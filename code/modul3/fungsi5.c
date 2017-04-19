@@ -16,7 +16,7 @@ int main () {
    
    /* local variable definition */
    int a = 100;
-   int b = 200;
+   int b = 50;
    int ret;
  
    /* calling a function to get max value */

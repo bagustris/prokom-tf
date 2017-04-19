@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int cube();		// prototipe*/
-int x=3;		// global variable*/
+int x=2;		// global variable*/
 
 /*int cube(int n)*/
 /*{*/
@@ -11,7 +11,7 @@ int x=3;		// global variable*/
 
 int main()
 {
-    int x = 2;			// local variable
+/*    int x = 2;			// local variable*/
     printf("Nilai x sekarang adalah %i\n", x);
     printf("Cubing...\n");
     // int y = cube(2);		// aktual parameter

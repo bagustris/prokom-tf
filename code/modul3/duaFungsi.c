@@ -1,8 +1,13 @@
 // duaFungsi.c: demo dua fungsi
 #include <stdio.h>
 
-void fungsiKedua();	//prototyping
-void fungsiKetiga(); 
+/*void fungsiKedua();	//prototyping*/
+/*void fungsiKetiga(); */
+
+void fungsiKedua()
+{
+	printf("OK, saya hadir.\n");
+}
 
 int main()
 {
@@ -13,10 +18,10 @@ int main()
 	printf("Fungsi kedua sudah dipanggil.\n");
 }
 
-void fungsiKedua()
-{
-	printf("OK, saya hadir.\n");
-}
+/*void fungsiKedua()*/
+/*{*/
+/*	printf("OK, saya hadir.\n");*/
+/*}*/
 
 /*void fungsiKetiga()*/
 /*{*/
