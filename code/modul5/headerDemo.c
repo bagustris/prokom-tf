@@ -15,7 +15,7 @@ int main()
 {
   int age;
   char childname[14] = "Thomas";
-  printf("\n%s have %d member.\n", family, student);
+  printf("\n%s %s %s have %d member.\n", family, faculty, institut, student);
   age = 18;
   printf("The oldest, %s, is %d.\n", childname, age);
   strcpy(childname, "Christopher");
