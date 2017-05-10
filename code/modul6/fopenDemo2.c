@@ -1,5 +1,5 @@
 /*
- * fopenDemo2.c
+ * fopenDemo2.c : demo fopen read
  *
  * 05/03/2016 09:58:48 PM
  * bagustris, bagustris@yahoo.com

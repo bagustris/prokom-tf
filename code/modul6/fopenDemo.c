@@ -1,4 +1,4 @@
-/* fopenDemo.c
+/* fopenDemo.c: demo fopen write/append
  * from cs50 study
  * 04/19/2016
  * bagustris, bagustris@yahoo.com
