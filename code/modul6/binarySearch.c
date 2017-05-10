@@ -1,51 +1,56 @@
-/* binarySearch.c
- * from Roseta
- * 04/22/2016
- * bagustris, bagustris@yahoo.com
- */
 #include <stdio.h>
+#include <stdbool.h> 	// for return true
+#define SIZE 7 
 
-int bsearch (int *a, int n, int x) {
-    int i = 0, j = n - 1;
-    while (i <= j) {
-        int k = (i + j) / 2;
-        if (a[k] == x) {
-            return k;
+bool search(int needle, int haystack[], int size)
+{
+    // define upper and lower bounds
+    int upper = size - 1;
+    int lower = 0;
+    
+    // halve array until bounds overlap
+    while(lower <= upper)
+    {
+        // define middle        
+        int middle = (upper + lower) / 2;
+       
+        // if needle is at middle 
+        if(needle == haystack[middle])
+        {
+            // return true
+            return true;
         }
-        else if (a[k] < x) {
-            i = k + 1;
+       
+        // if needle is left of middle     
+        else if(needle < haystack[middle])
+        {
+            // reset upper bound
+            upper = middle - 1;
         }
-        else {
-            j = k - 1;
+       
+        // if needle is right of middle     
+        else if(needle > haystack[middle])
+        {
+            // reset lower bound
+            lower = middle + 1;
         }
     }
-    return -1;
+    // needle is not in haystack
+    return false;    
 }
 
-int bsearch_r (int *a, int x, int i, int j) {
-    if (j < i) {
-        return -1;
+int main(void)
+{
+    int numbers[SIZE] = { 1, 3, 5, 6, 7, 9, 10};
+    int n;
+    printf("Masukkan angka yang dicari: ");
+    scanf("%d", &n);
+    if (search(n, numbers, SIZE))
+    {
+        printf("ADA\n");
     }
-    int k = (i + j) / 2;
-    if (a[k] == x) {
-        return k;
+    else
+    { 
+        printf("TIDAK ADA\n");
     }
-    else if (a[k] < x) {
-        return bsearch_r(a, x, k + 1, j);
-    }
-    else {
-        return bsearch_r(a, x, i, k - 1);
-    }
-}
-
-int main () {
-    int a[] = {-31, 0, 1, 2, 2, 4, 65, 83, 99, 782};
-    int n = sizeof a / sizeof a[0];
-    int x = 2;
-    int i = bsearch(a, n, x);
-    printf("%d is at index %d\n", x, i);
-    x = 5;
-    i = bsearch_r(a, x, 0, n - 1);
-    printf("%d is at index %d\n", x, i);
-    return 0;
 }

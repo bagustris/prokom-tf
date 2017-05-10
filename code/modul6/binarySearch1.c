@@ -1,32 +1,34 @@
-/* binarySearch1.c
- * from devhelp
- * 04/22/2016
- * bagustris, bagustris@yahoo.com
- */
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
-struct data {
-    int nr;
-    char const *value;
-} 
-    dat[] = { {1, "Foo"}, {2, "Bar"}, {3, "Hello"}, {4, "World"}};
+#define SIZE 8
 
-int data_cmp(void const *lhs, void const *rhs) 
+bool search(int n, int array[], int min, int max)
 {
-    struct data const *const l = lhs;
-    struct data const *const r = rhs;
-    return l->nr - r->nr;
+    // return true if n exists in the array
+    while (max >= min)
+    {    
+        int mid = (int) min + (max-min)/2;
+        
+        if (array[mid] < n)
+            min = mid + 1;
+        else if (array[mid] > n)
+            max = mid - 1;
+        else
+            return array[mid];
+    }
+    return 0;
 }
 
-int main(void) 
+int main(void)
 {
-    struct data key = { .nr = 3 };
-    struct data const *res = bsearch(&key, dat, sizeof(dat)/sizeof(dat[0]),
-                                   sizeof(dat[0]), data_cmp);
-    if (!res) {
-        printf("No %d not found\n", key.nr);
-    } else {
-        printf("No %d: %s\n", res->nr, res->value);
-    }
+    int n;
+    int numbers[SIZE] = { 4, 8, 15, 16, 23, 42, 50, 108 };
+    printf("Masukkan angka yang dicari: ");
+    scanf("%d", &n);
+    if (search(n, numbers, 0, SIZE))
+        printf("\nADA!\n");
+    else
+        printf("\nTidak ada\n");
+    return 0;
 }
