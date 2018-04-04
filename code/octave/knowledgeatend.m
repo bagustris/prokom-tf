@@ -8,7 +8,7 @@ secPerDay=60*60*1;
 tau=25*secPerDay;    
 
 % jumlah hari belajar dalam satu semester
-endOfClass=34*secPerDay; 
+endOfClass=105*secPerDay; 
 
 knowledgeAtEnd=1-exp(-endOfClass/tau);
 

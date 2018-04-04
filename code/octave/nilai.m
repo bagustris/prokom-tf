@@ -1,4 +1,4 @@
-## % nilai.m: program mencari nilai
+% nilai.m: program mencari nilai
 
 n1=input('masukkan nilai pertama= ');
 n2=input('masukkan nilai kedua= ');
@@ -10,8 +10,8 @@ nbar = (n1+n2+n3+n4)/4;
 
 if nbar < 50;
     disp('FAIL');
-elseif nbar ==50
-    disp('I don not know')
+% elseif nbar ==50
+%    disp('I don not know')
 else
     disp('PASS')
 end
